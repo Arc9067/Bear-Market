@@ -190,7 +190,6 @@ main {
   width: 100%;
 
   #map {
-    min-height: 100vh;
     width: 100%;
     background: linear-gradient(104.77deg, #42bf69 2.01%, #008777 104.62%);
     padding-block: 50px;
@@ -220,15 +219,26 @@ main {
         width: 100%;
       }
       background: #b45309;
+      border: 2px dashed #f1cd51;
 
       .head {
         padding: 20px;
         width: 100%;
         background: #78350f;
-        border: 2px dashed #f1cd51;
+        border-bottom: 2px dashed #f1cd51;
         text-align: left;
 
         h1.headtt {
+          font-family: "DynaPuff", cursive;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 140%;
+          color: #ffffff;
+        }
+      }
+      .txt {
+        h3.title {
           font-family: "DynaPuff", cursive;
           font-style: normal;
           font-weight: 700;
