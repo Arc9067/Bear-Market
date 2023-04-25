@@ -233,4 +233,78 @@ main #map .inner .txt h3.title {
   font-size: 32px;
   line-height: 140%;
   color: #ffffff;
+}
+main #tokenomics {
+  width: 100%;
+  padding-block: 50px;
+}
+main #tokenomics .txt-div {
+  min-height: 400px;
+  padding: 0;
+  background: #b45309;
+  border: 2px dashed #f1cd51;
+  overflow-x: hidden;
+}
+main #tokenomics .txt-div .head {
+  padding: 20px;
+  width: 100%;
+  background: #78350f;
+  border-bottom: 2px dashed #f1cd51;
+  text-align: left;
+}
+main #tokenomics .txt-div .head h1.headtt {
+  font-family: "DynaPuff", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  color: #ffffff;
+}
+@media (max-width: 700px) {
+  main #tokenomics .txt-div .head h1.headtt {
+    font-size: 24px;
+    line-height: 140%;
+  }
+}
+main #tokenomics .circle {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(36, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  height: 6px;
+  overflow: hidden;
+}
+@media (max-width: 700px) {
+  main #tokenomics .circle {
+    grid-template-columns: repeat(24, 1fr);
+  }
+}
+main #tokenomics .circle span {
+  width: 12px;
+  height: 12px;
+  background: #fef08a;
+  border-radius: 10000px;
+}
+main #tokenomics .txt {
+  padding: 20px;
+}
+main #tokenomics .txt h2.title {
+  font-family: "DynaPuff", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  /* or 34px */
+  color: #ffffff;
+}
+main #tokenomics .txt p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 180%;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
