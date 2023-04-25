@@ -9,7 +9,7 @@
   /*===== Colores =====*/
   --first-color: #facc15;
   --second-clr: #16a34a;
-  --body-bg: #0a9075;
+  --body-bg: linear-gradient(99.31deg, #78350f 6.17%, #b45309 105.01%);
   /*===== typography =====*/
   --body-font: "Lato";
   --big-font-size: 2rem;
@@ -75,7 +75,7 @@ img {
 /*===== CLASS CSS ===== */
 header {
   width: 100%;
-  background: #116a43;
+  background: #a70034;
   padding-block: 20px;
   position: absolute;
   top: 0;
@@ -117,7 +117,6 @@ header .container a.button {
 
 #hero {
   width: 100%;
-  background: linear-gradient(99.31deg, #42bf69 6.17%, #008777 105.01%);
   padding-block: 100px;
 }
 #hero .container {
@@ -181,7 +180,6 @@ main {
 }
 main #map {
   width: 100%;
-  background: linear-gradient(104.77deg, #42bf69 2.01%, #008777 104.62%);
   padding-block: 50px;
 }
 main #map .container {
@@ -203,8 +201,19 @@ main #map h1.title {
 main #map .inner {
   min-height: 500px;
   width: 800px;
+  position: relative;
   background: #b45309;
   border: 2px dashed #f1cd51;
+}
+main #map .inner .abso {
+  position: absolute;
+  bottom: 0;
+  max-width: 256px;
+}
+@media (max-width: 700px) {
+  main #map .inner .abso {
+    display: none;
+  }
 }
 @media (max-width: 991px) {
   main #map .inner {
@@ -217,6 +226,7 @@ main #map .inner .head {
   background: #78350f;
   border-bottom: 2px dashed #f1cd51;
   text-align: left;
+  z-index: 2;
 }
 main #map .inner .head h1.headtt {
   font-family: "DynaPuff", cursive;
@@ -225,6 +235,7 @@ main #map .inner .head h1.headtt {
   font-size: 32px;
   line-height: 140%;
   color: #ffffff;
+  z-index: 2;
 }
 main #map .inner .txt h3.title {
   font-family: "DynaPuff", cursive;
@@ -393,4 +404,5 @@ main #info .txt p span {
   font-size: 20px;
   line-height: 180%;
   color: #fef08a;
+  word-break: break-all;
 }/*# sourceMappingURL=style.css.map */
