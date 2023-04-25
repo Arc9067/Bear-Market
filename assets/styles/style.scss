@@ -78,7 +78,7 @@ img {
 header {
   width: 100%;
   background: #a70034;
-  padding-block: 20px;
+  padding-block: 15px;
   position: absolute;
   top: 0;
 
@@ -151,6 +151,8 @@ header {
     font-size: 24px;
     line-height: 140%;
     color: #f59e0b;
+    max-width: 500px;
+    margin-inline: auto;
 
     @media (max-width: 700px) {
       font-size: 20px;
