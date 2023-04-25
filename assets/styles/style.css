@@ -200,4 +200,29 @@ main #map h1.title {
   color: #ffffff;
   padding: 10px 24px;
   background: #2f2f2f;
+}
+main #map .inner {
+  min-height: 500px;
+  width: 800px;
+  background: #b45309;
+}
+@media (max-width: 991px) {
+  main #map .inner {
+    width: 100%;
+  }
+}
+main #map .inner .head {
+  padding: 20px;
+  width: 100%;
+  background: #78350f;
+  border: 2px dashed #f1cd51;
+  text-align: left;
+}
+main #map .inner .head h1.headtt {
+  font-family: "DynaPuff", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

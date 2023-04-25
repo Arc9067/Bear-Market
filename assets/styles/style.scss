@@ -212,5 +212,31 @@ main {
       padding: 10px 24px;
       background: #2f2f2f;
     }
+    .inner {
+      min-height: 500px;
+      width: 800px;
+
+      @media (max-width: 991px) {
+        width: 100%;
+      }
+      background: #b45309;
+
+      .head {
+        padding: 20px;
+        width: 100%;
+        background: #78350f;
+        border: 2px dashed #f1cd51;
+        text-align: left;
+
+        h1.headtt {
+          font-family: "DynaPuff", cursive;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 140%;
+          color: #ffffff;
+        }
+      }
+    }
   }
 }
