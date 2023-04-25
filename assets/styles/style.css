@@ -73,6 +73,48 @@ img {
 }
 
 /*===== CLASS CSS ===== */
+.none {
+  display: none !important;
+}
+
+#loader {
+  min-height: 100vh;
+  width: 100%;
+  background: url(../img/Frame\ 56357.png) center center no-repeat;
+  background-size: cover;
+  background-color: #b45309;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: var(--z-fixed);
+}
+#loader button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  max-width: 18rem;
+  margin-inline: auto;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#loader button svg {
+  max-width: inherit;
+  animation: pulse 2s infinite;
+}
+
 header {
   width: 100%;
   background: #a70034;
@@ -106,7 +148,7 @@ header .container ul li a {
 }
 header .container a.button {
   padding: 12px 24px;
-  background: #16a34a;
+  background: #0444fe;
   font-family: "Gosha Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -126,9 +168,11 @@ header .container a.button {
   font-family: "Slackey", cursive;
   font-style: normal;
   font-weight: 400;
-  font-size: 84px;
+  font-size: 52px;
   line-height: 140%;
   color: #facc15;
+  max-width: 1000px;
+  margin-inline: auto;
 }
 @media (max-width: 700px) {
   #hero h1.title {
