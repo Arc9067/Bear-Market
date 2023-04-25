@@ -266,6 +266,19 @@ main #tokenomics .txt-div .head h1.headtt {
     line-height: 140%;
   }
 }
+main #tokenomics .txt-div .head .pt {
+  width: 100px;
+  height: 100%;
+}
+main #tokenomics .txt-div .head .pt span {
+  width: 20px;
+  height: 20px;
+  background: #431407;
+  display: block;
+}
+main #tokenomics .txt-div .head .pt span:nth-child(2) {
+  border-radius: 1000px;
+}
 main #tokenomics .circle {
   padding: 20px;
   display: grid;
@@ -307,4 +320,77 @@ main #tokenomics .txt p {
   font-size: 20px;
   line-height: 180%;
   color: #ffffff;
+}
+main #info {
+  width: 100%;
+  padding-block: 50px;
+}
+main #info .txt-div {
+  min-height: 400px;
+  padding: 0;
+  background: #b45309;
+  border: 2px dashed #f1cd51;
+  overflow-x: hidden;
+}
+main #info .txt-div .head {
+  padding: 20px;
+  width: 100%;
+  background: #78350f;
+  border-bottom: 2px dashed #f1cd51;
+  text-align: left;
+}
+main #info .txt-div .head h1.headtt {
+  font-family: "DynaPuff", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  color: #ffffff;
+}
+@media (max-width: 700px) {
+  main #info .txt-div .head h1.headtt {
+    font-size: 24px;
+    line-height: 140%;
+  }
+}
+main #info .txt-div .head .pt {
+  width: 100px;
+  height: 100%;
+}
+main #info .txt-div .head .pt span {
+  width: 20px;
+  height: 20px;
+  background: #431407;
+  display: block;
+}
+main #info .txt-div .head .pt span:nth-child(2) {
+  border-radius: 1000px;
+}
+main #info .txt {
+  padding: 20px;
+}
+main #info .txt h2.title {
+  font-family: "DynaPuff", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  /* or 34px */
+  color: #ffffff;
+}
+main #info .txt p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 180%;
+  color: #ffffff;
+}
+main #info .txt p span {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 180%;
+  color: #fef08a;
 }/*# sourceMappingURL=style.css.map */

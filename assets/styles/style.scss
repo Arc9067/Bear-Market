@@ -285,6 +285,21 @@ main {
             line-height: 140%;
           }
         }
+        .pt {
+          width: 100px;
+          height: 100%;
+
+          span {
+            width: 20px;
+            height: 20px;
+            background: #431407;
+            display: block;
+          }
+
+          span:nth-child(2) {
+            border-radius: 1000px;
+          }
+        }
       }
     }
 
@@ -331,6 +346,92 @@ main {
         font-size: 20px;
         line-height: 180%;
         color: #ffffff;
+      }
+    }
+  }
+
+  #info {
+    width: 100%;
+    padding-block: 50px;
+
+    .container {
+      // padding: 0 !important;
+    }
+
+    .txt-div {
+      min-height: 400px;
+      padding: 0;
+      background: #b45309;
+      border: 2px dashed #f1cd51;
+      overflow-x: hidden;
+
+      .head {
+        padding: 20px;
+        width: 100%;
+        background: #78350f;
+        border-bottom: 2px dashed #f1cd51;
+        text-align: left;
+
+        h1.headtt {
+          font-family: "DynaPuff", cursive;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 140%;
+          color: #ffffff;
+
+          @media (max-width: 700px) {
+            font-size: 24px;
+            line-height: 140%;
+          }
+        }
+        .pt {
+          width: 100px;
+          height: 100%;
+
+          span {
+            width: 20px;
+            height: 20px;
+            background: #431407;
+            display: block;
+          }
+
+          span:nth-child(2) {
+            border-radius: 1000px;
+          }
+        }
+      }
+    }
+
+    .txt {
+      padding: 20px;
+
+      h2.title {
+        font-family: "DynaPuff", cursive;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        /* or 34px */
+
+        color: #ffffff;
+      }
+      p {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 180%;
+        color: #ffffff;
+
+        span {
+          font-family: "Lato", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 180%;
+          color: #fef08a;
+        }
       }
     }
   }
