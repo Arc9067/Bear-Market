@@ -95,9 +95,13 @@ img {
   max-width: 18rem;
   margin-inline: auto;
   display: block;
-  display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+#loader button svg {
+  max-width: inherit;
+  animation: pulse 2s infinite;
 }
 @keyframes pulse {
   0% {
@@ -109,10 +113,6 @@ img {
   100% {
     transform: scale(1);
   }
-}
-#loader button svg {
-  max-width: inherit;
-  animation: pulse 2s infinite;
 }
 
 header {
