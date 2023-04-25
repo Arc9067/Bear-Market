@@ -174,4 +174,30 @@ header .container a.button {
   text-decoration-line: underline;
   text-underline-position: under;
   color: #f6dd5a;
+}
+
+main {
+  width: 100%;
+}
+main #map {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(104.77deg, #42bf69 2.01%, #008777 104.62%);
+  padding-block: 50px;
+}
+main #map .container {
+  padding: 0 !important;
+}
+main #map img {
+  width: 363px;
+}
+main #map h1.title {
+  font-family: "DynaPuff", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  color: #ffffff;
+  padding: 10px 24px;
+  background: #2f2f2f;
 }/*# sourceMappingURL=style.css.map */

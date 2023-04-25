@@ -185,3 +185,32 @@ header {
     }
   }
 }
+
+main {
+  width: 100%;
+
+  #map {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(104.77deg, #42bf69 2.01%, #008777 104.62%);
+    padding-block: 50px;
+
+    .container {
+      padding: 0 !important;
+    }
+
+    img {
+      width: 363px;
+    }
+    h1.title {
+      font-family: "DynaPuff", cursive;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 140%;
+      color: #ffffff;
+      padding: 10px 24px;
+      background: #2f2f2f;
+    }
+  }
+}
